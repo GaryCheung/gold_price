@@ -4,7 +4,7 @@ import pymysql
 import time
 
 # 格式化成2016-03-20 11:45:39形式
-#little test
+# little test
 present_time =  time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 print(present_time)
 
